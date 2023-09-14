@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DeviceProperties</key>
+	<dict>
+		<key>Add</key>
+		<dict>
+			<key>PciRoot(0x0)/Pci(0x0,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,0,0</string>
+				<key>device_type</key>
+				<string>Host bridge</string>
+				<key>model</key>
+				<string>Renoir/Cezanne Root Complex</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x0,0x2)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,0,2</string>
+				<key>device_type</key>
+				<string>IOMMU</string>
+				<key>model</key>
+				<string>Renoir/Cezanne IOMMU</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,1,0</string>
+				<key>device_type</key>
+				<string>Host bridge</string>
+				<key>model</key>
+				<string>Renoir PCIe Dummy Host Bridge</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x14,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,20,0</string>
+				<key>device_type</key>
+				<string>SMBus</string>
+				<key>model</key>
+				<string>FCH SMBus Controller</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x14,0x3)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,20,3</string>
+				<key>device_type</key>
+				<string>ISA bridge</string>
+				<key>model</key>
+				<string>FCH LPC Bridge</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x18,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,24,0</string>
+				<key>device_type</key>
+				<string>Host bridge</string>
+				<key>model</key>
+				<string>Cezanne Data Fabric; Function 0</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x18,0x1)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,24,1</string>
+				<key>device_type</key>
+				<string>Host bridge</string>
+				<key>model</key>
+				<string>Cezanne Data Fabric; Function 1</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x18,0x2)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,24,2</string>
+				<key>device_type</key>
+				<string>Host bridge</string>
+				<key>model</key>
+				<string>Cezanne Data Fabric; Function 2</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x18,0x3)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,24,3</string>
+				<key>device_type</key>
+				<string>Host bridge</string>
+				<key>model</key>
+				<string>Cezanne Data Fabric; Function 3</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x18,0x4)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,24,4</string>
+				<key>device_type</key>
+				<string>Host bridge</string>
+				<key>model</key>
+				<string>Cezanne Data Fabric; Function 4</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x18,0x5)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,24,5</string>
+				<key>device_type</key>
+				<string>Host bridge</string>
+				<key>model</key>
+				<string>Cezanne Data Fabric; Function 5</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x18,0x6)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,24,6</string>
+				<key>device_type</key>
+				<string>Host bridge</string>
+				<key>model</key>
+				<string>Cezanne Data Fabric; Function 6</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x18,0x7)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,24,7</string>
+				<key>device_type</key>
+				<string>Host bridge</string>
+				<key>model</key>
+				<string>Cezanne Data Fabric; Function 7</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,2,0</string>
+				<key>device_type</key>
+				<string>Host bridge</string>
+				<key>model</key>
+				<string>Renoir PCIe Dummy Host Bridge</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x2,0x1)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,2,1</string>
+				<key>device_type</key>
+				<string>PCI bridge</string>
+				<key>model</key>
+				<string>Renoir/Cezanne PCIe GPP Bridge</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x2,0x1)/Pci(0x0,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,2,1/0,0</string>
+				<key>device_type</key>
+				<string>USB controller</string>
+				<key>model</key>
+				<string>400 Series Chipset USB 3.1 xHCI Compliant Host Controller</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x2,0x1)/Pci(0x0,0x1)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,2,1/0,1</string>
+				<key>device_type</key>
+				<string>SATA controller</string>
+				<key>model</key>
+				<string>400 Series Chipset SATA Controller</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x2,0x1)/Pci(0x0,0x2)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,2,1/0,2</string>
+				<key>device_type</key>
+				<string>PCI bridge</string>
+				<key>model</key>
+				<string>400 Series Chipset PCIe Bridge</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x2,0x1)/Pci(0x0,0x2)/Pci(0x0,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,2,1/0,2/0,0</string>
+				<key>device_type</key>
+				<string>PCI bridge</string>
+				<key>model</key>
+				<string>400 Series Chipset PCIe Port</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x2,0x1)/Pci(0x0,0x2)/Pci(0x1,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,2,1/0,2/1,0</string>
+				<key>device_type</key>
+				<string>PCI bridge</string>
+				<key>model</key>
+				<string>400 Series Chipset PCIe Port</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x2,0x1)/Pci(0x0,0x2)/Pci(0x4,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,2,1/0,2/4,0</string>
+				<key>device_type</key>
+				<string>PCI bridge</string>
+				<key>model</key>
+				<string>400 Series Chipset PCIe Port</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x2,0x1)/Pci(0x0,0x2)/Pci(0x4,0x0)/Pci(0x0,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,2,1/0,2/4,0/0,0</string>
+				<key>device_type</key>
+				<string>Ethernet controller</string>
+				<key>model</key>
+				<string>RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x2,0x1)/Pci(0x0,0x2)/Pci(0x5,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,2,1/0,2/5,0</string>
+				<key>device_type</key>
+				<string>PCI bridge</string>
+				<key>model</key>
+				<string>400 Series Chipset PCIe Port</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x2,0x1)/Pci(0x0,0x2)/Pci(0x6,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,2,1/0,2/6,0</string>
+				<key>device_type</key>
+				<string>PCI bridge</string>
+				<key>model</key>
+				<string>400 Series Chipset PCIe Port</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x2,0x1)/Pci(0x0,0x2)/Pci(0x6,0x0)/Pci(0x0,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,2,1/0,2/6,0/0,0</string>
+				<key>device_type</key>
+				<string>Network controller</string>
+				<key>model</key>
+				<string>BCM4360 802.11ac Wireless Network Adapter</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x2,0x1)/Pci(0x0,0x2)/Pci(0x7,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,2,1/0,2/7,0</string>
+				<key>device_type</key>
+				<string>PCI bridge</string>
+				<key>model</key>
+				<string>400 Series Chipset PCIe Port</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x2,0x2)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,2,2</string>
+				<key>device_type</key>
+				<string>PCI bridge</string>
+				<key>model</key>
+				<string>Renoir/Cezanne PCIe GPP Bridge</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x2,0x2)/Pci(0x0,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,2,2/0,0</string>
+				<key>device_type</key>
+				<string>Non-Volatile memory controller</string>
+				<key>model</key>
+				<string>???</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x8,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,8,0</string>
+				<key>device_type</key>
+				<string>Host bridge</string>
+				<key>model</key>
+				<string>Renoir PCIe Dummy Host Bridge</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x8,0x1)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,8,1</string>
+				<key>device_type</key>
+				<string>PCI bridge</string>
+				<key>model</key>
+				<string>Renoir Internal PCIe GPP Bridge to Bus</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x8,0x1)/Pci(0x0,0x0)</key>
+			<dict>
+				<key>AAPL,ig-platform-id</key>
+				<data>
+				CQClPg==
+				</data>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,8,1/0,0</string>
+				<key>device_type</key>
+				<string>VGA compatible controller</string>
+				<key>hda-gfx</key>
+				<string>onboard-1</string>
+				<key>model</key>
+				<string>Cezanne [Radeon Vega Series / Radeon Vega Mobile Series]</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x8,0x1)/Pci(0x0,0x1)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,8,1/0,1</string>
+				<key>device_type</key>
+				<string>Audio device</string>
+				<key>model</key>
+				<string>Renoir Radeon High Definition Audio Controller</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x8,0x1)/Pci(0x0,0x2)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,8,1/0,2</string>
+				<key>device_type</key>
+				<string>Encryption controller</string>
+				<key>model</key>
+				<string>Family 17h (Models 10h-1fh) Platform Security Processor</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x8,0x1)/Pci(0x0,0x3)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,8,1/0,3</string>
+				<key>device_type</key>
+				<string>USB controller</string>
+				<key>model</key>
+				<string>Renoir/Cezanne USB 3.1</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x8,0x1)/Pci(0x0,0x4)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,8,1/0,4</string>
+				<key>device_type</key>
+				<string>USB controller</string>
+				<key>model</key>
+				<string>Renoir/Cezanne USB 3.1</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x8,0x1)/Pci(0x0,0x6)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,8,1/0,6</string>
+				<key>device_type</key>
+				<string>Audio device</string>
+				<key>hda-gfx</key>
+				<string>onboard-1</string>
+				<key>layout-id</key>
+				<data>
+				BQAAAA==
+				</data>
+				<key>model</key>
+				<string>Family 17h/19h HD Audio Controller</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x8,0x2)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,8,2</string>
+				<key>device_type</key>
+				<string>PCI bridge</string>
+				<key>model</key>
+				<string>Renoir Internal PCIe GPP Bridge to Bus</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x8,0x2)/Pci(0x0,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,8,2/0,0</string>
+				<key>device_type</key>
+				<string>SATA controller</string>
+				<key>model</key>
+				<string>FCH SATA Controller [AHCI mode]</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x8,0x2)/Pci(0x0,0x1)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,8,2/0,1</string>
+				<key>device_type</key>
+				<string>SATA controller</string>
+				<key>model</key>
+				<string>FCH SATA Controller [AHCI mode]</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>
