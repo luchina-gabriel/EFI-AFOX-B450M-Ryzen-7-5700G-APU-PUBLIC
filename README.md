@@ -1,5 +1,7 @@
 # Hackintosh with APU Ryzen - AFOX B450 MA V2 + Ryzen 7 5700G + APU (iGPU)
 
+![About This Mac](https://github.com/luchina-gabriel/EFI-AFOX-B450M-Ryzen-7-5700G-APU-PUBLIC/assets/23700365/bc073b90-febe-419d-b64b-1dba0aee1812)
+
 # Basic Information
 
 **Latest working macOS**: macOS Ventura (13.5.2)
